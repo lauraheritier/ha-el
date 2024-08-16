@@ -1,0 +1,5 @@
+body {
+    background: rgb(200,249,219);
+    background: radial-gradient(circle, rgba(200,249,219,1) 35%, rgba(156,195,250,1) 100%);
+    overflow-x: hidden;
+}
