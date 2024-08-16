@@ -1,11 +1,35 @@
+@font-face {
+    font-family: "InstrumentSans_Condensed-Medium";
+    src: url('./fonts/InstrumentSans_Condensed-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: "InstrumentSans_Condensed-Regular";
+    src: url('./fonts/InstrumentSans_Condensed-Regular.ttf') format('truetype');
+}
 body {
     overflow-x: hidden;
 }
-header .nav {
+header nav {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    max-width: 600px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 8px;
+    border-radius: 54px;
+    background-color: #FFFFFF;
+}
+header .navbar-brand {
+    max-width: 86px;
+}
+header .navbar-nav {
+    flex-direction: row;
+}
+header .navbar-nav li.nav-item {
+    margin-right: 24px;
 }
 .hero-container {
     position: relative;
