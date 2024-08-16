@@ -41,10 +41,21 @@ header .navbar-nav {
 header .navbar-nav li.nav-item .nav-link {
     font-family: "InstrumentSans-Bold", sans-serif;
     font-size: 12px;
+    text-transform: uppercase;
+    color: #7797c4;
 }
 .hero-container {
     position: relative;
 }
 .hero-container .container {
     position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.hero-container h1 {
+    font-family: "Adamina-Regular", serif;
+    font-size: 84px;
+    color: #323232;
 }
