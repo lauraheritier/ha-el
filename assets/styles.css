@@ -1,10 +1,14 @@
 @font-face {
-    font-family: "InstrumentSans_Condensed-Medium";
-    src: url('./fonts/InstrumentSans_Condensed-Medium.ttf') format('truetype');
+    font-family: "InstrumentSans-Medium";
+    src: url('./fonts/InstrumentSans-Medium.ttf') format('truetype');
 }
 @font-face {
     font-family: "InstrumentSans_Condensed-Regular";
-    src: url('./fonts/InstrumentSans_Condensed-Regular.ttf') format('truetype');
+    src: url('./fonts/InstrumentSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "InstrumentSans-Bold";
+    src: url('./fonts/InstrumentSans-Bold.ttf') format('truetype');
 }
 body {
     overflow-x: hidden;
