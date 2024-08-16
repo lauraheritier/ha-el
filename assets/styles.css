@@ -1,9 +1,13 @@
 @font-face {
+    font-family: "Adamina-Regular";
+    src: url('./fonts/Adamina-Regular.ttf') format('truetype');
+}
+@font-face {
     font-family: "InstrumentSans-Medium";
     src: url('./fonts/InstrumentSans-Medium.ttf') format('truetype');
 }
 @font-face {
-    font-family: "InstrumentSans_Condensed-Regular";
+    font-family: "InstrumentSans-Regular";
     src: url('./fonts/InstrumentSans-Regular.ttf') format('truetype');
 }
 @font-face {
@@ -31,9 +35,12 @@ header .navbar-brand {
 }
 header .navbar-nav {
     flex-direction: row;
+    min-width: 230px;
+    justify-content: space-between;
 }
-header .navbar-nav li.nav-item {
-    margin-right: 24px;
+header .navbar-nav li.nav-item .nav-link {
+    font-family: "InstrumentSans-Bold", sans-serif;
+    font-size: 12px;
 }
 .hero-container {
     position: relative;
