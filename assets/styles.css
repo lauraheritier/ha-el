@@ -69,9 +69,20 @@ header .navbar-nav li.nav-item .nav-link {
     background-size: cover;
     background-position: center;
     min-height: 730px;
+    display: flex;
+    align-items: center;
 }
 .hero-container h1 {
     font-family: "InstrumentSans-Bold", serif;
     font-size: 45px;
-    color: #323232;
+    color: #3ebbbf;
+    max-width: 441px;
+    margin-left: 40px;
+}
+.hero-container p {
+    max-width: 441px;
+    font-family: 'InstrumentSans-Medium', sans-serif;
+    font-size: 20px;
+    color: #868686;
+    margin-left: 40px;
 }
