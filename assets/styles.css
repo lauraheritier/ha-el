@@ -141,3 +141,42 @@ h2 {
     padding-top: 50px;
     background: #F9f9f9;
 }
+#pricing .row {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.pricing-container {
+    text-align: center;
+    border: 2px solid #575757;
+    border-radius: 10px;
+    padding: 16px;
+    background: #FFFFFF;
+}
+p.plan-type {
+    background: #A2CE5E;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'InstrumentSans-Bold', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+p.plan-title {
+    font-size: 24px;
+    font-family: 'InstrumentSans-Bold', sans-serif;
+    color: #44c1c0;
+    min-height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p.plan-price {
+    color: #959595;
+    font-size: 24px;
+    font-family: 'InstrumentSans-Bold', sans-serif;
+}
