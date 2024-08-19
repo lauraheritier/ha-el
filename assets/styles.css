@@ -205,3 +205,17 @@ small {
     color: #5e6060;
     font-family: "InstrumentSans-Regular", sans-serif;
 }
+.promo-label {
+    border: 2px dashed #A2CE5E;
+    background: #FFFFFF;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 4px 4px 1px 0 #D2D3D0;
+    padding: 12px 40px 12px 40px;
+    color: #44C1C0;
+    font-size: 20px;
+    font-family: 'InstrumentSans-Regular';
+    text-align: center;
+}
+.promo-label span {
+    font-weight: 500;
+}
