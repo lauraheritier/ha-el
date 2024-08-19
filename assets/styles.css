@@ -94,3 +94,19 @@ h2 {
     font-size: 35px;
     font-family: "InstrumentSans-Bold", serif;
 }
+.about-container .row {
+    margin-top: 56px;
+    margin-bottom: 40px;
+}
+.about-container .process-container {
+    max-width: 140px;
+    text-align: center;
+    margin: 0 auto;
+}
+.process-container img.img-fluid {
+    max-width: 80px;
+}
+.process-container p {
+    font-family: "InstrumentSans-Regular", sans-serif;
+    margin-top: 8px;
+}
