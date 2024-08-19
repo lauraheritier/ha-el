@@ -118,6 +118,9 @@ h2 {
     max-width: 728px;
     margin: 0 auto;
 }
+.intro-container span {
+    font-weight: 500;
+}
 .process-container:not(.last-container):after {
     content: "";
     display: block;
@@ -130,4 +133,8 @@ h2 {
     background-image: url("./img/chevron-right.png");
     background-repeat: no-repeat;
     background-position: center;
+}
+#pricing {
+    padding-top: 50px;
+    background: #F9f9f9;
 }
