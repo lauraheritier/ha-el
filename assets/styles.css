@@ -21,17 +21,35 @@ header nav.navbar {
     position: fixed;
     width: 100%;
     left: 0;
-    max-width: 600px;
-    left: 0;
     right: 0;
     margin: 0 auto;
-    top: 8px;
-    border-radius: 54px;
-    background-color: #FFFFFF;
     z-index: 99;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 header .navbar-brand {
-    max-width: 86px;
+    display: flex;
+    align-items: center;
+}
+header .navbar-brand p {
+    margin-bottom: 0;
+    margin-left: 16px;
+    color: #3ebbbf;
+    line-height: 17px;
+    font-family: 'InstrumentSans-Bold', sans-serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+header .navbar-brand p span {
+    font-size: 14px;
+    font-family: 'InstrumentSans-Regular', sans-serif;
+    color: #FFFFFF;
+}
+header .navbar-brand img {
+    max-width: 140px;
 }
 header .navbar-nav {
     flex-direction: row;
@@ -42,7 +60,7 @@ header .navbar-nav li.nav-item .nav-link {
     font-family: "InstrumentSans-Bold", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
-    color: #7797c4;
+    color: #3ebbbf;
 }
 .hero-container {
     position: relative;
