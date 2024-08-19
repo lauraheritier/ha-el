@@ -167,16 +167,32 @@ p.plan-type {
     margin-bottom: 24px;
 }
 p.plan-title {
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'InstrumentSans-Bold', sans-serif;
     color: #44c1c0;
     min-height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 99px;
 }
 p.plan-price {
     color: #959595;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'InstrumentSans-Bold', sans-serif;
+}
+.cta {
+    text-transform: uppercase;
+    font-family: 'InstrumentSans-Bold';
+    padding: 8px 16px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    background: #A2CE5E;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.cta:hover {
+    background-color: #44c1c0;
+    transform: scale(1.1);
 }
