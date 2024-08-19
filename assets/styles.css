@@ -93,6 +93,7 @@ header .navbar-nav li.nav-item .nav-link {
 h2 {
     font-size: 35px;
     font-family: "InstrumentSans-Bold", serif;
+    color: #3ebbbf;
 }
 .about-container .row {
     margin-top: 56px;
