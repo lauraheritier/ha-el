@@ -68,9 +68,10 @@ header .navbar-nav li.nav-item .nav-link {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 730px;
 }
 .hero-container h1 {
-    font-family: "Adamina-Regular", serif;
-    font-size: 84px;
+    font-family: "InstrumentSans-Bold", serif;
+    font-size: 45px;
     color: #323232;
 }
