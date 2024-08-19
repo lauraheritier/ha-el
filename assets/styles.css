@@ -127,7 +127,7 @@ h2 {
     top: 0;
     z-index: 99;
     right: -140px;
-    background-image: url(./assets/img/chevron-right.png);
+    background-image: url("./img/chevron-right.png");
     background-repeat: no-repeat;
     background-position: center;
 }
