@@ -86,3 +86,11 @@ header .navbar-nav li.nav-item .nav-link {
     color: #868686;
     margin-left: 40px;
 }
+.about-container {
+    padding-top: 45px;
+    padding-bottom: 36px;
+}
+h2 {
+    font-size: 35px;
+    font-family: "InstrumentSans-Bold", serif;
+}
