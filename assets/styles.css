@@ -94,6 +94,8 @@ h2 {
     font-size: 35px;
     font-family: "InstrumentSans-Bold", serif;
     color: #3ebbbf;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .about-container .row {
     margin-top: 56px;
@@ -110,4 +112,8 @@ h2 {
 .process-container p {
     font-family: "InstrumentSans-Regular", sans-serif;
     margin-top: 8px;
+}
+.intro-container {
+    max-width: 728px;
+    margin: 0 auto;
 }
