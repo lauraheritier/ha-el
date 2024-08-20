@@ -307,13 +307,13 @@ h3 span {
 #about .italic {
     font-style: italic;
 }
-.blockquote {
+blockquote {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     margin-top: 64px;
 }
-.blockquote p {
+blockquote p {
     margin-top: 32px;
     margin-left: 28px;
 }
