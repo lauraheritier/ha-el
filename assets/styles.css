@@ -325,7 +325,7 @@ footer {
 }
 footer a, footer a:hover, footer a:focus {
     color: #FFFFFF;
-    font-family: "InstrumentSans-Medium", sans-serif;
+    font-family: "InstrumentSans-Regular", sans-serif;
     transition: 0.3s ease;
     display: inline-block;
     margin-bottom: 8px;
@@ -343,4 +343,12 @@ footer p {
 }
 footer .col-md-6.social a {
     margin-right: 24px;
+}
+footer a img {
+    margin-right: 4px;
+}
+footer .col-md-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
