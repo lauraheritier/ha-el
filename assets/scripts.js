@@ -4,13 +4,22 @@ let large = window.matchMedia("(min-width: 992px)");
 $(document).ready(function() {
     if(large.matches) {
         scrollHandler();
-    }    
-    const swiper = new Swiper('.swiper', {
-        slidesPerView: 4,
-        spaceBetween: 10,
+    }
+    if(small.matches) {
+        $("header .nav-link").on("click", function() {
+            $("#menu-toggle").prop("checked", false);
+        });
+    }
+    const swiper = new Swiper('.swiper', {        
         loop: true,
         autoPlay: true,
-        speed: 1000
+        speed: 1000,
+        breakpoints: {
+            992: {
+                slidesPerView: 4,
+                spaceBetween: 10,
+            }
+        }
       });
 });
 $(window).bind('scroll', function () {
