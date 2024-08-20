@@ -251,6 +251,7 @@ small {
 }
 #testimonies .swiper {
     margin-top: 40px;
+    margin-bottom: 80px;
 }
 #testimonies .testimonies-container {
     padding: 20px;
@@ -279,4 +280,21 @@ small {
     background-repeat: no-repeat;
     padding-top: 45px;
     padding-bottom: 32px;
+}
+#about img {
+    border: 5px solid #A2CE5E;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+h3 {
+    font-size: 35px;
+    font-family: "InstrumentSans-Medium", sans-serif;
+    color: #383838;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#about p {
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    color: #5e6060;
 }
