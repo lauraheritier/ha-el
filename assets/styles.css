@@ -272,3 +272,11 @@ small {
 .swiper-slide:nth-child(odd) .testimonies-container {
     background: #DCEEF2;
 }
+#about {
+    background-image: url("./img/bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 45px;
+    padding-bottom: 32px;
+}
