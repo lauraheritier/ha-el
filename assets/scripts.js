@@ -8,6 +8,9 @@ $(document).ready(function() {
         speed: 1000
       });
 });
+$(window).bind('scroll', function () {
+    scrollHandler();
+});
 function scrollHandler() {
     if ($(window).scrollTop() > 115) {
         $('header nav.navbar').addClass('scrolling');
