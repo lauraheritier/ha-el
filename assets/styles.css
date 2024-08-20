@@ -17,6 +17,9 @@
 body {
     overflow-x: hidden;
 }
+body, html {
+    scroll-behavior: smooth;
+}
 header nav.navbar {
     position: fixed;
     width: 100%;
