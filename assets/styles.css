@@ -220,3 +220,17 @@ small {
 .promo-label span {
     font-weight: 700;
 }
+#testimonies {
+    padding-top: 35px;
+}
+#testimonies h2 + p {
+    font-size: 18px;
+    color: #7d7d7d;
+    font-family: 'InstrumentSans-Medium';
+}
+#testimonies img {
+    max-width: 194px;
+}
+#testimonies .swiper {
+    margin-top: 40px;
+}
