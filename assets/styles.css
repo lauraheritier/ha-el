@@ -32,13 +32,14 @@ header.desktop nav.navbar {
 header.desktop nav.navbar.scrolling {
     background-color: #4DBBBB;
 }
-header.desktop nav.navbar.scrolling * {
+header.desktop nav.navbar.scrolling *,
+header.mobile nav * {
     color: #FFFFFF !important;
 }
 header.desktop .navbar .container-fluid {
     max-width: 1024px;
 }
-header.desktop .navbar-brand {
+header .navbar-brand {
     display: flex;
     align-items: center;
 }
@@ -72,9 +73,14 @@ header.desktop li.nav-item {
 }
 header .navbar-nav li.nav-item .nav-link {
     font-family: "InstrumentSans-Bold", sans-serif;
-    text-transform: uppercase;
-    color: #3ebbbf;
+    text-transform: uppercase;    
     transition: 0.3s ease;
+}
+header.desktop .navbar-nav .nav-link {
+    color: #3ebbbf;
+}
+header.mobile .navbar-nav .nav-link {
+    color: #3ebbbf;
 }
 header .navbar-nav li.nav-item .nav-link:hover {
     transform: scale(1.1);
@@ -421,6 +427,9 @@ header .content-type-menu {
 }
 header .content-type-menu img {
     max-width: 90px;
+}
+header .icon-bars .bar-bottom {
+    margin-top: 12px;
 }
 header .menu-toggle:checked+.icon-bars .bar-top {
     margin-top: 0 !important;
