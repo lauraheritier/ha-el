@@ -304,3 +304,11 @@ h3 span {
     font-size: 18px;
     color: #5e6060;
 }
+#about .col-md-9 span {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+#about .italic {
+    font-style: italic;
+}
