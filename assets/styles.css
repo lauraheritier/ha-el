@@ -58,12 +58,13 @@ header.mobile .navbar-brand p {
     color: #FFFFFF;
     font-family: 'InstrumentSans-Bold', sans-serif;
     font-size: 24px;
+    line-height: 14px;
 }
 header.mobile .navbar-brand p span {
     font-size: 12px;
-    font-family: 'InstrumentSans-Bold', sans-serif;
+    font-family: 'InstrumentSans-Medium', sans-serif;
     color: #FFFFFF;
-    line-height: 8px;
+    line-height: 1;
 }
 header.desktop .navbar-brand p span {
     font-size: 14px;
@@ -470,6 +471,84 @@ header .menu-toggle:checked+.icon-bars+.menu-overlay {
     }
     .hero-container {
         background-image: url("./img/hero_mobile.webp");
+        min-height: 500px;
+    }
+    main {
+        padding-top: 74px;
+    }
+    .hero-container p {
+        max-width: 247px;
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .intro-container p {
+        font-size: 16px;
+    }
+    .about-container .process-container {
+        min-height: 224px;
+    }
+    .process-container:not(.last-container):after {
+        background-position: center right;
+        transform: rotate(90deg);
+        bottom: 141px;
+        right: 0;
+    }
+    .pricing-container {
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+    p.plan-type {
+        width: 35px;
+        height: 35px;
+        font-size: 32px;
+    }
+    p.plan-title {
+        font-size: 20px;
+        min-height: initial;
+    }
+    p.plan-price, .cta {
+        font-size: 20px;
+    }
+    .cta {
+        padding: 8px;
+    }
+    .promo-label, #testimonies h2 + p {
+        font-size: 16px;
+    }
+    #testimonies img {
+        max-width: 160px;
+    }
+    #testimonies .testimonies-container {
+        padding: 8px;
+    }
+    #testimonies .swiper {
+        margin-bottom: 40px;
+    }
+    #about .col-md-3 {
+        text-align: center;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    #about p {
+        font-size: 16px;
+    }
+    blockquote {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 32px;
+    }
+    blockquote img {
+        max-width: 72px;
+    }
+    #about .col-md-3 img {
+        max-width: 190px;
+    }
+    footer .col-md-6 {
+        justify-content: flex-start;
+        margin-bottom: 24px;
     }
 }
 @media only screen and (min-width: 992px) {
