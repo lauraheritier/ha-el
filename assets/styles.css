@@ -541,10 +541,10 @@ header .menu-toggle:checked+.icon-bars+.menu-overlay {
         margin-top: 32px;
     }
     blockquote img {
-        max-width: 72px;
+        max-width: 72px !important;
     }
     #about .col-md-3 img {
-        max-width: 190px;
+        max-width: 190px !important;
     }
     footer .col-md-6 {
         justify-content: flex-start;
