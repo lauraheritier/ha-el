@@ -64,8 +64,8 @@ header .navbar-nav {
     justify-content: space-between;
 }
 header li.nav-item {
-    min-width: 120px;
     text-align: center;
+    padding-left: 24px;
 }
 header .navbar-nav li.nav-item .nav-link {
     font-family: "InstrumentSans-Bold", sans-serif;
@@ -328,6 +328,9 @@ footer a, footer a:hover, footer a:focus {
     transition: 0.3s ease;
     display: inline-block;
     margin-bottom: 8px;
+}
+footer .social a {
+    margin-right: 24px;
 }
 footer .social a:hover {
     transform: scale(0.9);
