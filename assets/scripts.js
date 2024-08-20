@@ -10,14 +10,15 @@ $(document).ready(function() {
             $("#menu-toggle").prop("checked", false);
         });
     }
-    const swiper = new Swiper('.swiper', {        
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,     
         loop: true,
         autoPlay: true,
         speed: 1000,
         breakpoints: {
             992: {
                 slidesPerView: 4,
-                spaceBetween: 10,
+                
             }
         }
       });
