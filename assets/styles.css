@@ -281,7 +281,7 @@ small {
     padding-top: 45px;
     padding-bottom: 32px;
 }
-#about img {
+#about .col-md-3 img {
     border: 5px solid #A2CE5E;
     background-color: #FFFFFF;
     border-radius: 100%;
@@ -304,11 +304,16 @@ h3 span {
     font-size: 18px;
     color: #5e6060;
 }
-#about .col-md-9 span {
-    text-align: right;
-    display: inline-block;
-    width: 100%;
-}
 #about .italic {
     font-style: italic;
+}
+.blockquote {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 64px;
+}
+.blockquote p {
+    margin-top: 32px;
+    margin-left: 28px;
 }
