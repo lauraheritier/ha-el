@@ -20,7 +20,7 @@ body {
 body, html {
     scroll-behavior: smooth;
 }
-header nav.navbar {
+header.desktop nav.navbar {
     position: fixed;
     width: 100%;
     left: 0;
@@ -29,16 +29,16 @@ header nav.navbar {
     z-index: 99;
     transition: all 0.5s ease;
 }
-header nav.navbar.scrolling {
+header.desktop nav.navbar.scrolling {
     background-color: #4DBBBB;
 }
-header nav.navbar.scrolling * {
+header.desktop nav.navbar.scrolling * {
     color: #FFFFFF !important;
 }
-header .navbar .container-fluid {
+header.desktop .navbar .container-fluid {
     max-width: 1024px;
 }
-header .navbar-brand {
+header.desktop .navbar-brand {
     display: flex;
     align-items: center;
 }
@@ -61,12 +61,12 @@ header .navbar-brand p span {
 header .navbar-brand img {
     max-width: 140px;
 }
-header .navbar-nav {
+header.desktop .navbar-nav {
     flex-direction: row;
     min-width: 230px;
     justify-content: space-between;
 }
-header li.nav-item {
+header.desktop li.nav-item {
     text-align: center;
     padding-left: 24px;
 }
@@ -81,11 +81,9 @@ header .navbar-nav li.nav-item .nav-link:hover {
 }
 .hero-container {
     position: relative;
-    background-image: url("./img/hero.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 730px;
     display: flex;
     align-items: center;
 }
@@ -356,4 +354,105 @@ footer .col-md-6 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+header.mobile {
+    background-color: rgb(68, 193, 192);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+header .hamburger {
+    position: relative;
+    text-align: right;
+    margin-right: 24px;
+}
+header input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 0;
+    cursor: pointer;
+    z-index: 9999;
+}
+header .icon-bars {
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+}
+header .menu-overlay {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    background: rgba(68, 193, 192, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+header .icon-bars .bar-top {
+    margin-top: -12px;
+}
+header .icon-bars .icon-bar {
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    backface-visibility: hidden;
+    background-color: #FFFFFF;
+    transition: all .3s ease;
+}
+header .content-type-menu {
+    padding: 24px;
+    text-align: center;
+}
+header .content-type-menu img {
+    max-width: 90px;
+}
+header .menu-toggle:checked+.icon-bars .bar-top {
+    margin-top: 0 !important;
+    transform: rotate(45deg);
+}
+header .menu-toggle:checked+.icon-bars .bar-middle {
+    opacity: 0;
+}
+header .menu-toggle:checked+.icon-bars .bar-bottom {
+    margin-top: 0 !important;
+    transform: rotate(-45deg);
+}
+header .menu-toggle:checked+.icon-bars+.menu-overlay {
+    z-index: 1900;
+    visibility: visible;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+@media only screen and (max-width: 991px) {
+    .desktop {
+        display: none;
+    }
+    .hero-container {
+        background-image: url("./img/hero_mobile.webp");
+    }
+}
+@media only screen and (min-width: 992px) {
+    .mobile {
+        display: none;
+    }
+    .hero-container {
+        background-image: url("./img/hero.webp");
+        min-height: 730px;
+    }
 }

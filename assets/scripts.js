@@ -1,5 +1,10 @@
+let small = window.matchMedia("(max-width: 991px)");
+let large = window.matchMedia("(min-width: 992px)");
+
 $(document).ready(function() {
-    scrollHandler();
+    if(large.matches) {
+        scrollHandler();
+    }    
     const swiper = new Swiper('.swiper', {
         slidesPerView: 4,
         spaceBetween: 10,
@@ -13,8 +18,8 @@ $(window).bind('scroll', function () {
 });
 function scrollHandler() {
     if ($(window).scrollTop() > 115) {
-        $('header nav.navbar').addClass('scrolling');
+        $('header.desktop nav.navbar').addClass('scrolling');
     } else {
-        $('header nav.navbar').removeClass('scrolling');
+        $('header.desktop nav.navbar').removeClass('scrolling');
     }
 }

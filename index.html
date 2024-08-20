@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./assets/styles.css">
   </head>
   <body>
-    <header>
+    <header class="desktop">
         <nav class="navbar">
             <div class="container-fluid">
               <a class="navbar-brand" href="">
@@ -37,6 +37,53 @@
               </ul>
             </div>
           </nav>
+    </header>
+    <header class="mobile">
+      <nav class="fixed">
+        <div class="navbar">
+           <div class="container-fluid">
+              <div class="brand">
+                <a class="navbar-brand" href="">
+                  <img src="./assets/img/logo.png" class="img-fluid" alt="Ha-El. Funcionales para administrar." />
+                  <p>HA-EL <br/><span>Funcionales<br/>para administrar</span></p>
+                </a>
+              </div>
+                           
+              <div class="hamburger">
+                 <input type="checkbox" id="menu-toggle" name="menu-toggle" class="menu-toggle">
+                 <label for="menu-toggle" class="icon-bars">
+                 <span class="icon-bar bar-top"></span>
+                 <span class="icon-bar bar-middle"></span>
+                 <span class="icon-bar bar-bottom"></span>
+                 </label>
+                 <div class="menu-overlay">
+                    <div class="content-type-menu">
+                       <a class="logo-link" href="">
+                          <img class="img-fluid" src="./assets/img/logo.png" alt="Ha-El. Funcionales para administrar.">
+                       </a>
+                       <ul id="menu-menu-principal" class="navbar-nav content-type-menu">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#process">¿Qué es HA-El?</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Precios</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#testimonies">Testimonios</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#about">Acerca de</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://www.blogger.com" target="_blank">Blog</a>
+                          </li>
+                       </ul>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </nav>
     </header>
     <main>
       <section>
