@@ -327,10 +327,20 @@ footer a, footer a:hover, footer a:focus {
     color: #FFFFFF;
     font-family: "InstrumentSans-Medium", sans-serif;
     transition: 0.3s ease;
+    display: inline-block;
+    margin-bottom: 8px;
 }
 footer .social a:hover {
     transform: scale(0.9);
 }
 footer .social a:hover img {
     opacity: 0.75;
+}
+footer p {
+    font-size: 18px;
+    font-family: "InstrumentSans-Bold", sans-serif;
+    color: #FFFFFF;
+}
+footer .col-md-6.social a {
+    margin-right: 24px;
 }
