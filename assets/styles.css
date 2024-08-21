@@ -428,6 +428,10 @@ header .menu-toggle:checked+.icon-bars+.menu-overlay {
     transition: all .3s ease-in-out;
 }
 @media only screen and (max-width: 991px) {
+    .promo-label {
+        font-size: 14px;
+        padding: 8px;
+    }
     .desktop {
         display: none;
     }
@@ -471,7 +475,7 @@ header .menu-toggle:checked+.icon-bars+.menu-overlay {
     .cta {
         padding: 8px;
     }
-    .promo-label, #testimonies h2 + p {
+    #testimonies h2 + p {
         font-size: 16px;
     }
     #testimonies img {
