@@ -15,10 +15,10 @@ $(document).ready(function() {
         loop: true,
         autoPlay: true,
         speed: 1000,
+        slidesPerView: 1.1,
         breakpoints: {
             992: {
-                slidesPerView: 4,
-                
+                slidesPerView: 4,                
             }
         }
       });
