@@ -36,42 +36,16 @@ header.desktop nav.navbar.scrolling *,
 header.mobile nav * {
     color: #FFFFFF !important;
 }
+header.desktop nav.navbar.scrolling .black-logo,
+header.desktop nav.navbar:not(.scrolling) .white-logo {
+    display: none;
+}
 header.desktop .navbar .container-fluid {
-    max-width: 1024px;
+    max-width: 992px;
 }
 header .navbar-brand {
     display: flex;
     align-items: center;
-}
-header.desktop .navbar-brand p {
-    margin-bottom: 0;
-    margin-left: 16px;
-    color: #3ebbbf;
-    line-height: 17px;
-    font-family: 'InstrumentSans-Bold', sans-serif;
-    font-size: 24px;
-    letter-spacing: 4px;
-}
-header.mobile .navbar-brand p {
-    margin-bottom: 0;
-    margin-left: 4px;
-    color: #FFFFFF;
-    font-family: 'InstrumentSans-Bold', sans-serif;
-    font-size: 24px;
-    line-height: 14px;
-}
-header.mobile .navbar-brand p span {
-    font-size: 12px;
-    font-family: 'InstrumentSans-Medium', sans-serif;
-    color: #FFFFFF;
-    line-height: 1;
-}
-header.desktop .navbar-brand p span {
-    font-size: 14px;
-    font-family: 'InstrumentSans-Bold', sans-serif;
-    color: #7d7d7d;
-    line-height: 8px;
-    letter-spacing: 1px;
 }
 header.desktop .navbar-brand img {
     max-width: 140px;
