@@ -361,11 +361,12 @@ header input[type=checkbox] {
 }
 header .icon-bars {
     margin-left: auto;
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
     position: relative;
     z-index: 9999;
     cursor: pointer;
+    margin-bottom: 0;
 }
 header .menu-overlay {
     display: flex;
@@ -387,11 +388,11 @@ header .menu-overlay {
     -webkit-backdrop-filter: blur(5px);
 }
 header .icon-bars .bar-top {
-    margin-top: -12px;
+    margin-top: -8px;
 }
 header .icon-bars .icon-bar {
-    width: 40px;
-    height: 3px;
+    width: 24px;
+    height: 1px;
     position: absolute;
     top: 50%;
     left: 0;
@@ -407,7 +408,7 @@ header .content-type-menu img {
     max-width: 90px;
 }
 header .icon-bars .bar-bottom {
-    margin-top: 12px;
+    margin-top: 8px;
 }
 header .menu-toggle:checked+.icon-bars .bar-top {
     margin-top: 0 !important;

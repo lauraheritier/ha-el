@@ -2,6 +2,7 @@ let small = window.matchMedia("(max-width: 991px)");
 let large = window.matchMedia("(min-width: 992px)");
 
 $(document).ready(function() {
+    AOS.init();
     if(large.matches) {
         scrollHandler();
     }
