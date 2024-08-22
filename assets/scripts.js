@@ -6,11 +6,6 @@ $(document).ready(function() {
     if(large.matches) {
         scrollHandler();
     }
-    if(small.matches) {
-        $("header .nav-link").on("click", function() {
-            $("#menu-toggle").prop("checked", false);
-        });
-    }
     const swiper = new Swiper('.swiper', {
         spaceBetween: 10,     
         loop: true,
@@ -29,8 +24,8 @@ $(window).bind('scroll', function () {
 });
 function scrollHandler() {
     if ($(window).scrollTop() > 115) {
-        $('header.desktop nav.navbar').addClass('scrolling');
+        $('header nav.navbar').addClass('scrolling');
     } else {
-        $('header.desktop nav.navbar').removeClass('scrolling');
+        $('header nav.navbar').removeClass('scrolling');
     }
 }
