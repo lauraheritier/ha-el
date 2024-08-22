@@ -360,7 +360,7 @@ footer .col-md-6 {
     }
     .hero-container {
         background-image: url("./img/hero_mobile.webp");
-        min-height: 500px;
+        min-height: 475px;
     }
     .hero-container h1 {
         font-size: 32px;
