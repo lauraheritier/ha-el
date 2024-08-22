@@ -330,6 +330,27 @@ footer .col-md-6 {
     justify-content: center;
 }
 @media only screen and (max-width: 991px) {
+    header nav.navbar {
+        background-color: #4DBBBB;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    header nav.navbar.scrolling *, header nav.navbar * {
+        color: #FFFFFF !important;
+    }
+    header li.nav-item {
+        padding-left: 8px;
+    }
+    header .navbar-nav li.nav-item .nav-link {
+        font-size: 11px;
+    }
+    header .navbar-nav {
+        width: 100%;
+    }
+    header .navbar .container-fluid {
+        flex-direction: column;
+        justify-content: center;
+    }
     .promo-label {
         font-size: 14px;
         padding: 8px;
