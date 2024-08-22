@@ -20,7 +20,7 @@ body {
 body, html {
     scroll-behavior: smooth;
 }
-header.desktop nav.navbar {
+header nav.navbar {
     position: fixed;
     width: 100%;
     left: 0;
@@ -29,14 +29,14 @@ header.desktop nav.navbar {
     z-index: 99;
     transition: all 0.5s ease;
 }
-header.desktop nav.navbar.scrolling {
+header nav.navbar.scrolling {
     background-color: #4DBBBB;
 }
-header.desktop nav.navbar.scrolling *,
+header nav.navbar.scrolling *,
 header.mobile nav * {
     color: #FFFFFF !important;
 }
-header.desktop .navbar .container-fluid {
+header .navbar .container-fluid {
     max-width: 992px;
 }
 header .navbar-brand {
@@ -46,12 +46,12 @@ header .navbar-brand {
 header .navbar-brand img {
     max-width: 140px;
 }
-header.desktop .navbar-nav {
+header .navbar-nav {
     flex-direction: row;
     min-width: 230px;
     justify-content: space-between;
 }
-header.desktop li.nav-item {
+header li.nav-item {
     text-align: center;
     padding-left: 24px;
 }
@@ -60,7 +60,7 @@ header .navbar-nav li.nav-item .nav-link {
     text-transform: uppercase;    
     transition: 0.3s ease;
 }
-header.desktop .navbar-nav .nav-link {
+header .navbar-nav .nav-link {
     color: #3ebbbf;
 }
 header .navbar-nav li.nav-item .nav-link:hover {
