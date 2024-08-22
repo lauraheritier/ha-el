@@ -43,11 +43,8 @@ header .navbar-brand {
     display: flex;
     align-items: center;
 }
-header.desktop .navbar-brand img {
+header .navbar-brand img {
     max-width: 140px;
-}
-header.mobile .navbar-brand img {
-    max-width: 96px;
 }
 header.desktop .navbar-nav {
     flex-direction: row;
