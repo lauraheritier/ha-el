@@ -119,12 +119,13 @@ h2 {
     margin: 0 auto;
 }
 .intro-container p {
-    font-family: 'InstrumentSans-Regular';
+    font-family: 'InstrumentSans-Regular', sans-serif;
     font-size: 18px;
     color: #7a7a7a;
 }
 .intro-container span {
     font-weight: 500;
+    font-family: 'InstrumentSans-Medium', sans-serif;
 }
 #pricing {
     padding-top: 50px;
